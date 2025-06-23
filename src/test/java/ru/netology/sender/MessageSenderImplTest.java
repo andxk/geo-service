@@ -17,7 +17,6 @@ public class MessageSenderImplTest {
     private LocalizationServiceImpl localizationService = Mockito.mock(LocalizationServiceImpl.class);
     private Map<String, String> headers = new HashMap<>();
     private MessageSenderImpl   messageSender = new MessageSenderImpl(geoService, localizationService);
-//    private String expectedText;
 
 
     @Test
